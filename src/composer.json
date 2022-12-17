@@ -1,0 +1,20 @@
+{
+    "name": "indra-pc/src",
+    "autoload": {
+        "psr-4": {
+            "IndraPc\\Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "indra",
+            "email": "muhammad.indra65@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.3",
+        "vlucas/phpdotenv": "^5.5",
+        "bernard/bernard": "^0.13.0",
+        "predis/predis": "^2.0"
+    }
+}
